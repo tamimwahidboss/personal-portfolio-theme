@@ -1,0 +1,64 @@
+/*!
+Theme Name: Tamim Wahid Portfolio
+Theme URI: http://tamimwahid.com/
+Author: Tamim Wahid
+Author URI: https://tamimwahid.com/
+Description: This is a portfolio theme developed by Tamim Wahid.
+Version: 1.0.1
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: tamim-wahid
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Tamim Wahid Portfolio is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+@media (min-width: 992px) {
+    .current_page_item.icon-box {
+        background-color: #72b626 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .current-menu-item a {
+        color: #72b626 !important;
+    }
+}
+
+/* Blog Page Category */
+.blog-post .meta {
+    display: flex;
+}
+
+.blog-post .meta i {
+    padding-top: 4px;
+}
+
+.post-categories{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul.post-categories li {
+    list-style-type: none;
+}
+
+ul.post-categories li a {
+    color: #fff;
+}
+
+/* Single Blog Post */
+.wp-block-code {
+    background: #fff;
+    padding: 15px;
+}
